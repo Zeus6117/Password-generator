@@ -19,11 +19,11 @@ if (question1 === "" || question1 === null); {
   window.alert("You need to provide a valid answer! Please try again."); 
   return question1()
 };
-console.log(question1);
+//console.log(question1);
 
 var question2 = window.prompt("Would you like upper case characters? Enter YES or NO."); {
 if (question2 === "YES" || question2 === "yes"); 
-  
+  upperCase()
 }
  if (question2 === "NO" || question2 === "no"); {
 
@@ -36,7 +36,7 @@ console.log(question2);
 
 var question3 = window.prompt("Would you like numbers? Enter YES or NO.")
 if (question3 === "YES" || question3 === "yes"); {
-  
+  numbers()
 }
  if (question3 === "NO" || question3 === "no"); {
 
@@ -49,7 +49,7 @@ console.log(question3);
 
 var question4 = window.prompt("Would you like special characters? Enter YES or NO.")
 if (question4 === "YES" || question4 === "yes"); {
-  
+  special()
 }
  if (question4 === "NO" || question4 === "no"); {
 
